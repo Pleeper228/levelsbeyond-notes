@@ -6,4 +6,4 @@ COPY config.docker.yml /config.docker.yml
 
 COPY bin/entryPoint.sh /entryPoint.sh
 
-ENTRYPOINT ["/entryPoint.sh"]
+ENTRYPOINT ["sh", "/entryPoint.sh"]
