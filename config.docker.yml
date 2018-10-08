@@ -1,0 +1,12 @@
+# Config for use with Docker Compose
+
+logging:
+  level: INFO
+  loggers:
+    com.levelsbeyond: DEBUG
+
+database:
+  driverClass: org.postgresql.Driver
+  user: levelsbeyond-notes
+  password: password
+  url: jdbc:postgresql://levelsbeyond-notes-db/levelsbeyond-notes

@@ -1,0 +1,28 @@
+# Maven
+# -----
+target/
+dependency-reduced-pom.xml
+pom.xml.versionsBackup
+
+# IDEA
+# ----
+.idea/
+*.ipr
+*.iws
+dataSources/
+.ideaDataSources/
+*.iml
+*.log
+
+# Gradle
+# ------
+.gradle
+/build
+/buildSrc/build
+/subprojects/*/build
+/subprojects/docs/src/samples/*/*/build
+/subprojects/internal-android-performance-testing/build-android-libs
+
+.DS_Store
+
+test-data

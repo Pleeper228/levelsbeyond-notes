@@ -1,0 +1,11 @@
+# Config for use with local Postgres Database
+logging:
+  level: INFO
+  loggers:
+    com.levelsbeyond: DEBUG
+
+database:
+  driverClass: org.postgresql.Driver
+  user: # Postgres Username
+  password:
+  url: jdbc:postgresql://localhost:5432/notes

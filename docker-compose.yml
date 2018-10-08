@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  levelsbeyond-notes-api:
+    build: .
+    ports:
+    - "8080:8080"
+    depends_on:
+    - levelsbeyond-notes-db
+
+  levelsbeyond-notes-db:
+    image: postgres
+    environment:
+      POSTGRES_USER: levelsbeyond-notes
+      POSTGRES_PASSWORD: password
