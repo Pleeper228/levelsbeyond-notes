@@ -4,6 +4,6 @@ COPY target /target
 
 COPY config.docker.yml /config.docker.yml
 
-COPY bin/entrypoint.sh /entrypoint.sh
+COPY bin/entryPoint.sh /entryPoint.sh
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entryPoint.sh"]
